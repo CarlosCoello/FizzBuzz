@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mainheader {
+    background-color: #00bcd4;
+    width: 100%;
+}
+
+.mainheader h1 {
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.instructions {
+    margin: 25px;
+}
+
+.instructions p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 25px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons .not-a-number {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.buttons button {
+    width: 200px;
+    padding: 20px 25px;
+    background-color: #607d8b;
+    border: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: #00bcd4;
+}
+
+.buttons ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+  position: relative;
+  height: 250px;
+  background-color: #212121;
+  margin-top: 50px;
+}
+
+footer .footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer .footer header {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+}
